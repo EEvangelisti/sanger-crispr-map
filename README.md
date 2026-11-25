@@ -139,7 +139,3 @@ bash run.sh                # results in results/, log in alignment_debug.txt
 - **Large deletions need flanks.** A deletion is only seen if the read aligns on both sides of it. Deletions that remove a primer site produce no read at all.
 - **FASTA input has no quality scores.** Without `--ab1`, no trimming or masking is done beyond `N` calls already in the file.
 - **Grouping relies on file names.** Check `summary.tsv` and the `WARNING` lines in the log to confirm every read went to the expected sample and band.
-
-## License
-
-Add your license here (e.g. MIT).
